@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Listing</title>
+    <!--Fontawesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <!-- css -->
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <div id="wrapper">
+
+        <!--Navbar-->
+        <div class="grid">
+            <div id="wrapper__navbar">
+                <ul id="navbar-menu">
+                    <li id="navbar-menu-item">
+                        <a class="menu-item-link" href="#">Shop</a>
+                    </li>
+                    <li id="navbar-menu-item">
+                        <a class="menu-item-link" href="#">Offers</a>
+                    </li>
+                    <li id="navbar-menu-item">
+                        <a class="menu-item-link" href="#">Our story</a>
+                    </li>
+                    <li id="navbar-menu-item">
+                        <a class="menu-item-link" href="#">Blog</a>
+                    </li>
+                </ul>
+
+                <div id="navbar-logo">
+                    <img src="img/logo.png" alt="">
+                </div>
+
+                <div id="navbar-searching">
+                    <div class="input-group">
+                        <div class="input-group-btn">
+                            <button class="btn btn-default" type="submit">
+                                <i class="glyphicon glyphicon-search"></i>
+                            </button>
+                        </div>
+                        <input type="text" class="form-control" placeholder="Search product..." name="search">
+                    </div>
+
+                    <button class="btn btn-default btn-shoppingCart">
+                        <img src="img/shoppingCart.png" alt="">
+                    </button>
+
+                    <button class="btn btn-default btn-shoppingCart">
+                        <img src="img/user.png" alt="">
+                    </button>
+
+
+                </div>
+            </div>
+        </div>
+
+        <!--Banner-->
+        <div id="wrapper__banner">
+            <img src="img/banner.png" alt="" id="banner-img">
+            <div id="banner-text">
+                <h1 id="banner-title">Gift for your skin</h1>
+                <p id="banner-line">Aliquip fugiat ipsum nostrud ex et eu incididunt
+                    <br>quis minim dolore excepteur voluptate
+                </p>
+            </div>
+        </div>
+
+        <!--Categories-->
+        <div class="grid">
+            <div id="wrapper__category">
+                <ul id="category-list">
+                    <li class="category-list-item">
+                        <input type="button" id="button-product" value="All Products">
+                    </li>
+                    <li class="vategory-list-item">
+                        <a href="#" class="list-item-link"><b>Face</b></a>
+                    </li>
+                    <li class="vategory-list-item">
+                        <a href="#" class="list-item-link"><b>Body</b></a>
+                    </li>
+                </ul>
+
+                <div id="category-sort_and_search">
+                    <div id="category-sort_and_search-search">
+                        <i class="fa-solid fa-magnifying-glass icon-search"></i>
+                        <input type="text" class="input-search" placeholder="Search product...">
+                        <!--50x245-->
+                    </div>
+
+                    <div id="category-sort_and_search-sort">
+                        <h4 id="sort-text">Sort by</h4>
+                        <i class="fa-solid fa-sort-down sort-icon"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Products-->
+        <!--w270 x h340-->
+        <div class="grid">
+            <div id="wrapper__products">
+                <div class="grid__row">
+                    <div class="grid__column3">
+                        <div class="product-item">
+                            <div class="item-img-div">
+                                <img class="item-img" src="img/productitem01.png" alt="">
+                                <div class="product-item-status">
+                                    <p class="status-text">Best-seller</p>
+                                </div>
+                            </div>
+                            <div class="item-text">
+                                <h2 class="item-text-title">Product title</h2>
+                                <p class="item-text-line">Labore sint ipsum dolore mollit</p>
+                            </div>
+                            <div class="item-price">
+                                <div class="item-price-sales">
+                                    <h2 class="item-price-salse1">$32</h2>
+                                    <h3 class="item-price-salse2">$42</h3>
+                                </div>
+                                <img src="img/shopping_product.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="grid__column3">
+                        <div class="product-item">
+                            <div class="item-img-div">
+                                <img class="item-img" src="img/productitem02.png" alt="">
+                                <div class="product-item-status">
+                                    <p class="status-text">Best-seller</p>
+                                </div>
+                            </div>
+                            <div class="item-text">
+                                <h2 class="item-text-title">Product title</h2>
+                                <p class="item-text-line">Labore sint ipsum dolore mollit</p>
+                            </div>
+                            <div class="item-price">
+                                <div class="item-price-sales">
+                                    <h2 class="item-price-salse1">$22</h2>
+                                    <h3 class="item-price-salse2">$28</h3>
+                                </div>
+                                <img src="img/shopping_product.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="grid__column3">
+                        <div class="product-item">
+                            <div class="item-img-div">
+                                <img class="item-img" src="img/productitem03.png" alt="">
+                                <div class="product-item-status">
+                                    <p class="status-text">Best-seller</p>
+                                </div>
+                            </div>
+                            <div class="item-text">
+                                <h2 class="item-text-title">Product title</h2>
+                                <p class="item-text-line">Labore sint ipsum dolore mollit</p>
+                            </div>
+                            <div class="item-price">
+                                <div class="item-price-sales">
+                                    <h2 class="item-price-salse1">$18</h2>
+                                    <h3 class="item-price-salse2">$26</h3>
+                                </div>
+                                <img src="img/shopping_product.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="grid__column3">
+                        <div class="product-item">
+                            <div class="item-img-div">
+                                <img class="item-img" src="img/productitem04.png" alt="">
+                                <div class="product-item-status">
+                                    <p class="status-text">Best-seller</p>
+                                </div>
+                            </div>
+                            <div class="item-text">
+                                <h2 class="item-text-title">Product title</h2>
+                                <p class="item-text-line">Labore sint ipsum dolore mollit</p>
+                            </div>
+                            <div class="item-price">
+                                <div class="item-price-sales">
+                                    <h2 class="item-price-salse1">$48</h2>
+                                    <h3 class="item-price-salse2">$56</h3>
+                                </div>
+                                <img src="img/shopping_product.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="grid__column3">
+                        <div class="product-item">
+                            <img class="item-img" src="img/productitem05.png" alt="">
+                            <div class="item-text">
+                                <h2 class="item-text-title">Product title</h2>
+                                <p class="item-text-line">Labore sint ipsum dolore mollit</p>
+                            </div>
+                            <div class="item-price">
+                                <div class="item-price-sales">
+                                    <h2 class="item-price-salse1">$31</h2>
+                                </div>
+                                <img src="img/shopping_product.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="grid__column3">
+                        <div class="product-item">
+                            <div class="item-img-div">
+                                <img class="item-img" src="img/productitem06.png" alt="">
+                                <div class="product-item-status">
+                                    <p class="status-text">New</p>
+                                </div>
+                            </div>
+                            <div class="item-text">
+                                <h2 class="item-text-title">Product title</h2>
+                                <p class="item-text-line">Labore sint ipsum dolore mollit</p>
+                            </div>
+                            <div class="item-price">
+                                <div class="item-price-sales">
+                                    <h2 class="item-price-salse1">$40</h2>
+                                    <h3 class="item-price-salse2">$48</h3>
+                                </div>
+                                <img src="img/shopping_product.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="grid__column3">
+                        <div class="product-item">
+                            <img class="item-img" src="img/productitem07.png" alt="">
+                            <div class="item-text">
+                                <h2 class="item-text-title">Product title</h2>
+                                <p class="item-text-line">Labore sint ipsum dolore mollit</p>
+                            </div>
+                            <div class="item-price">
+                                <div class="item-price-sales">
+                                    <h2 class="item-price-salse1">$26</h2>
+                                </div>
+                                <img src="img/shopping_product.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="grid__column3">
+                        <div class="product-item">
+                            <img class="item-img" src="img/productitem08.png" alt="">
+                            <div class="item-text">
+                                <h2 class="item-text-title">Product title</h2>
+                                <p class="item-text-line">Labore sint ipsum dolore mollit</p>
+                            </div>
+                            <div class="item-price">
+                                <div class="item-price-sales">
+                                    <h2 class="item-price-salse1">$18</h2>
+                                </div>
+                                <img src="img/shopping_product.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="grid__column3">
+                        <div class="product-item">
+                            <div class="item-img-div">
+                                <img class="item-img" src="img/productitem09.png" alt="">
+                                <div class="product-item-status">
+                                    <p class="status-text">New</p>
+                                </div>
+                            </div>
+                            <div class="item-text">
+                                <h2 class="item-text-title">Product title</h2>
+                                <p class="item-text-line">Labore sint ipsum dolore mollit</p>
+                            </div>
+                            <div class="item-price">
+                                <div class="item-price-sales">
+                                    <h2 class="item-price-salse1">$52</h2>
+                                </div>
+                                <img src="img/shopping_product.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="grid__column3">
+                        <div class="product-item">
+                            <img class="item-img" src="img/productitem10.png" alt="">
+                            <div class="item-text">
+                                <h2 class="item-text-title">Product title</h2>
+                                <p class="item-text-line">Labore sint ipsum dolore mollit</p>
+                            </div>
+                            <div class="item-price">
+                                <div class="item-price-sales">
+                                    <h2 class="item-price-salse1">$47</h2>
+                                    <h3 class="item-price-salse2">$42</h3>
+                                </div>
+                                <img src="img/shopping_product.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="grid__column3">
+                        <div class="product-item">
+                            <img class="item-img" src="img/productitem11.png" alt="">
+                            <div class="item-text">
+                                <h2 class="item-text-title">Product title</h2>
+                                <p class="item-text-line">Labore sint ipsum dolore mollit</p>
+                            </div>
+                            <div class="item-price">
+                                <div class="item-price-sales">
+                                    <h2 class="item-price-salse1">$44</h2>
+                                </div>
+                                <img src="img/shopping_product.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="grid__column3">
+                        <div class="product-item">
+                            <div class="item-img-div">
+                                <img class="item-img" src="img/productitem12.png" alt="">
+                                <div class="product-item-status">
+                                    <p class="status-text">New</p>
+                                </div>
+                            </div>
+                            <div class="item-text">
+                                <h2 class="item-text-title">Product title</h2>
+                                <p class="item-text-line">Labore sint ipsum dolore mollit</p>
+                            </div>
+                            <div class="item-price">
+                                <div class="item-price-sales">
+                                    <h2 class="item-price-salse1">$32</h2>
+                                    <h3 class="item-price-salse2">$42</h3>
+                                </div>
+                                <img src="img/shopping_product.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Page number-->
+        <!--h230 x w255-->
+        <div class="grid">
+            <div id="wrapper__panigation">
+                <ul id="panigation-list">
+                    <div class="item">
+                        <li class="panigation-list-item">
+                            <img class="panigation-list-item-next" src="img/left.png" alt="">
+                        </li>
+                    </div>
+                    <div class="item">
+                        <li class="panigation-list-item">
+                            <a class="panigation-list-item-link" href="#">1</a>
+                        </li>
+                    </div>
+                    <div class="item">
+                        <li class="panigation-list-item">
+                            <div id="item-select">
+                                <p id="select-text">2</p>
+                            </div>
+                        </li>
+                    </div>
+                    <div class="item">
+                        <li class="panigation-list-item">
+                            <a class="panigation-list-item-link" href="#">3</a>
+                        </li>
+                    </div>
+                    <div class="item">
+                        <li class="panigation-list-item">
+                            <a class="panigation-list-item-link" href="#">4</a>
+                        </li>
+                    </div>
+                    <div class="item">
+                        <li class="panigation-list-item">
+                            <img class="panigation-list-item-next" src="img/right.png" alt="">
+                        </li>
+                    </div>
+                </ul>
+            </div>
+        </div>
+
+        <!--footer-->
+        <!--h430-->
+        <div id="footer">
+            <div class="grid">
+                <div id="wrapper__footer">
+                    <div class="grid__row">
+                        <div class="grid__column6">
+                            <div id="wrapper__footer-left">
+                                <div class="grid__row">
+                                    <div class="grid__column4">
+                                        <div class="footer-left-list">
+                                            <ul class="left-list1">
+                                                <li class="left-list-item item-title">
+                                                    <a href="#" class="left-list-item-link">About</a>
+                                                </li>
+
+                                                <li class="left-list-item">
+                                                    <a href="#" class="left-list-item-link">Home</a>
+                                                </li>
+
+                                                <li class="left-list-item">
+                                                    <a href="#" class="left-list-item-link">Shop</a>
+                                                </li>
+
+                                                <li class="left-list-item">
+                                                    <a href="#" class="left-list-item-link">Our story</a>
+                                                </li>
+
+                                                <li class="left-list-item">
+                                                    <a href="#" class="left-list-item-link">Blogs</a>
+                                                </li>
+
+                                                <li class="left-list-item">
+                                                    <div class="left-list-item-select">
+                                                        <select name="select-language" id="select-language">
+                                                            <option value="English">English</option>
+                                                            <option value="Vietnamese">Vietnamese</option>
+                                                        </select>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                    <div class="grid__column4">
+                                        <div class="footer-left-list">
+                                            <ul class="left-list2">
+                                                <li class="left-list-item item-title">
+                                                    <a href="#" class="left-list-item-link">Help</a>
+                                                </li>
+
+                                                <li class="left-list-item">
+                                                    <a href="#" class="left-list-item-link">Shpping & Returns</a>
+                                                </li>
+
+                                                <li class="left-list-item">
+                                                    <a href="#" class="left-list-item-link">Track Order</a>
+                                                </li>
+
+                                                <li class="left-list-item">
+                                                    <a href="#" class="left-list-item-link">FAQs</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                    <div class="grid__column4">
+                                        <div class="footer-left-list">
+                                            <ul class="left-list3">
+                                                <li class="left-list-item item-title">
+                                                    <a href="#" class="left-list-item-link">Contact</a>
+                                                </li>
+
+                                                <li class="left-list-item">
+                                                    <a href="#" class="left-list-item-link">Phone:</a>
+                                                </li>
+
+                                                <li class="left-list-item">
+                                                    <a href="#" class="left-list-item-link">(+1)123 456 7893</a>
+                                                </li>
+
+                                                <li class="left-list-item">
+                                                    <a href="#" class="left-list-item-link">Email: </a>
+                                                </li>
+
+                                                <li class="left-list-item">
+                                                    <a href="#" class="left-list-item-link">name@email.com</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="grid__column6">
+                            <div id="wrapper__footer-right">
+                                <div class="div-right">
+                                    <h3 class="footer-right-title">Receive new promotions</h3>
+                                    <p class="footer-right-tex">Duis ea tempor commodo amet reprehende</p>
+
+                                    <div class="footer-right-inputemail">
+                                        <div class="icon-text">
+                                            <i class="fa-sharp fa-regular fa-envelope email-icon"></i>
+                                            <p class="inputemail-text">Input your email</p>
+                                        </div>
+                                        <div class="inputemail-subscribe">
+                                            <input type="button" value="Subscribe" class="inputemail-subscribe-button">
+                                        </div>
+                                    </div>
+
+                                    <div class="footer-right-icon">
+                                        <img src="img/Twitter 1.png" alt="" class="icon-img">
+                                        <img src="img/Facebook 1.png" alt="" class="icon-img">
+                                        <img src="img/LinkedIn 1.png" alt="" class="icon-img">
+                                        <img src="img/YouTube 1.png" alt="" class="icon-img">
+                                    </div>
+
+                                    <div class="footer-right-list">
+                                        <ul class="right-list">
+                                            <li class="list-item item-brand">@ 2022 Brand, inc.</li>
+                                            <li class="list-item">Privacy</li>
+                                            <li class="list-item">Terms</li>
+                                            <li class="list-item">Sitemap</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
