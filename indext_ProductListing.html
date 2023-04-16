@@ -80,21 +80,26 @@
             <div id="wrapper__category">
                 <ul id="category-list">
                     <li class="category-list-item">
-                        <input type="button" id="button-product" value="All Products">
+                        <button class="btn btn-success btn-allPro">All Product</button>
                     </li>
-                    <li class="vategory-list-item">
-                        <a href="#" class="list-item-link"><b>Face</b></a>
+                    <li class="category-list-item">
+                        <button class="btn btn-default btn-face">Face</button>
                     </li>
-                    <li class="vategory-list-item">
-                        <a href="#" class="list-item-link"><b>Body</b></a>
+                    <li class="category-list-item">
+                        <button class="btn btn-default btn-body">Body</button>
                     </li>
                 </ul>
 
                 <div id="category-sort_and_search">
-                    <div id="category-sort_and_search-search">
-                        <i class="fa-solid fa-magnifying-glass icon-search"></i>
-                        <input type="text" class="input-search" placeholder="Search product...">
-                        <!--50x245-->
+                    <div class="category-container">
+                        <div class="input-group">
+                            <div class="input-group-btn ">
+                                <button class="btn btn-default btn-category" type="submit">
+                                    <i class="glyphicon glyphicon-search"></i>
+                                </button>
+                            </div>
+                            <input type="text" class="form-control input-category" placeholder="Search product..." name="search">
+                        </div>
                     </div>
 
                     <div id="category-sort_and_search-sort">
